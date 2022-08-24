@@ -1,5 +1,21 @@
+* body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(29, 28, 28);
+  background:rgb(29, 28, 28) url(https://i.gifer.com/QIPt.gif)
+  
+  
+}
+
+ .img{
+  background-repeat: repeat-x;
+  background-position: center;
+
+ }
+
 .text-bootstrap {
     color:#a19e9e !important;
+    text-align: center;
   }
   
   .btn-bootstrap{
@@ -13,10 +29,12 @@
   
   #header img {
     width: 80px;
+    
   }
   
   #main .carousel-inner img {
     max-height: 80vh;
+    
     max-width: 300vh;
     
     object-fit: cover;
@@ -56,12 +74,15 @@
     color: black;
     font-size: 1.5em;
     text-align: center;
+
+
   }
 
   .card{
       width:100%;
       margin: 100px;
       padding: 100px;
+      
      
   }
   iframe{
@@ -75,11 +96,11 @@
     text-align: center;
     padding-top: 15px;
     padding-bottom:15px;
-    background-color: #343a40;
+    background-color: #24578a;
     border-radius: 10px;
   }
 
-
+ 
   
 
 .ext-center center-block a:hover{
@@ -90,7 +111,7 @@ font-size: 50px;
 
 
   #footer {
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+    background: linear-gradient(90deg,#04a8fa,#273b47 25%,#049df5);
   }
   
   #footer a {
@@ -99,17 +120,30 @@ font-size: 50px;
   
 
   @media screen and (max-width: 768px) {
-    #carousel .overlay {
-      display: none;
-    }
-    .top-personajes_titulo {
-      color: white;
-      font-size: 1.6em;
+
+
+
+    .body{
+
       text-align: center;
-      padding-top: 15px;
-      padding-bottom:15px;
-      background-color: #343a40;
-      border-radius: 10px;
+      
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: black;
+      
+     }
+     
+     #footer {
+      background: linear-gradient(90deg,#04a8fa,#273b47 25%,#049df5);
     }
-  
+    
+    #footer a {
+      color: white;
+    }
+    
+    
+    .card{
+      margin-left: auto;
+     }
+
+    
   }
